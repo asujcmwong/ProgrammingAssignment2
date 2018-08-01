@@ -14,7 +14,7 @@
      }
      get <- function() x
      ## computes the inverse of non-singular matrix via the solve function
-     setinverse <- function(inverse) inv <<- inverse
+     setinverse <- function(solve) inv <<- solve
      getinverse <- function() inv
      
      ## passes the value of this function 
